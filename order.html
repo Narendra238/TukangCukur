@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdul Barber</title>
+    <link rel="stylesheet" href="order.css">
+</head>
+<body>
+    <nav>
+        <h1>Abdul Barber</h1>
+        <ul>
+            <li><a href="index.html">About</a></li>
+            <li><a href="katalog.html">Katalog</a></li>
+            <li><a href="order.html">Order</a></li>
+        </ul>
+    </nav>
+    <form action="formbooking.php" method="post" onsubmit="return confirmSubmit()">
+        <h3>DATA BOOKING</h3>
+        <br>
+        <label for="nama">Nama :</label>
+        <input type="text" name="nama" autocomplete="off">
+        <br>
+        <label for="nomorhp">Nomor HP :</label>
+        <input type="text" name="nomorhp" autocomplete="off">
+        <br>
+        <div class="jk">
+            <input type="radio" name="jk" id="jk" value="laki-laki">
+            <label for="laki">Laki-laki</label>
+            <input type="radio" name="jk" id="jk" value="perempuan">
+            <label for="perempuan">Perempuan</label>
+        </div>
+        <br>
+        <label for="usia">Pilihan kategori</label>
+        <select name="usia" id="usia">
+            <option value="bocil">Anak-anak</option>
+            <option value="dewasa">Dewasa</option>
+        </select>
+        <br>
+        <br>
+        <input type="submit" name="submit">        
+    </form>
+
+    <div class="Contact">
+        <h4>Contact Person : 0812-1561-5533</h4>
+        <p>Jalan Kartini No 13</p>
+        <p>Karangpucung,Cilacap</p>
+    </div>
+    <footer>
+        <p>Muhammad Narendra Hawari - 2200018238 - UAD INFORMATIKA</p>
+    </footer>
+    <script src="js.js"></script>
+</body>
+</html>

@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: url(ren238.jpg);
+	background-position: center;
+	background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+nav{
+    height: 11vh;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(255, 174, 0);
+    align-items: center;
+    padding: 0 2rem;
+}
+nav h1{
+    font-size: 2rem;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 174, 0);
+    font-size: 2rem;
+}
+a:hover{
+    background-color:  rgb(255, 174, 0);
+    color: #000000;
+    padding: 5 5px;
+    border-radius: 5px;
+}
+ul{
+    display: flex;
+    gap: 2rem;
+    justify-content: flex-end;
+}
+li{
+    list-style-type: none;
+}
+.KontenAbout{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 40%;
+    padding: 0 1rem;
+}
+.KontenAbout h4{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.KontenAbout p{
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: justify;
+}
+.Contact{
+    position: absolute;
+    bottom: 1.8rem;
+    padding-left: 2.4rem;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 4vh;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 193, 35);
+}

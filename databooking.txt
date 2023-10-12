@@ -1,0 +1,7 @@
+Narendra|099|laki-laki|antrian ke = 1|harga = 10000
+bellarisa|8876|perempuan|antrian ke = 2|harga = 15000
+Mochi|123|laki-laki|antrian ke = 3|harga = 15000
+Mochi|123|laki-laki|antrian ke = 4|harga = 15000
+naren|222|perempuan|antrian ke = 5|harga = 10000
+pweb|111|perempuan|antrian ke = 6|harga = 15000
+narendra|6655|laki-laki|antrian ke = 7|harga = 10000
